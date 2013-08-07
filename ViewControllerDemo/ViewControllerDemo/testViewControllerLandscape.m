@@ -30,6 +30,7 @@
     UILabel *testLabel = [[UILabel alloc]initWithFrame:CGRectMake(20, 50, 250, 50)];
     [testLabel setText:@"Here is the Landscape test"];
     [self.view addSubview:testLabel];
+    [self.myNavigationTitle setText:@"hello Landscape"];
 }
 
 - (void)didReceiveMemoryWarning

@@ -10,4 +10,5 @@
 
 @interface BaseViewController_Portrait : UIViewController
 
+@property (nonatomic, strong)UILabel *myNavigationTitle;
 @end

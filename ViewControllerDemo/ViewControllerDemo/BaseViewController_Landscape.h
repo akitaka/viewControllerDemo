@@ -10,4 +10,5 @@
 
 @interface BaseViewController_Landscape : UIViewController
 
+@property (nonatomic, strong)UILabel *myNavigationTitle;
 @end

@@ -37,15 +37,15 @@
     [backbar setBackgroundColor:[UIColor blueColor]];
     [self.view addSubview:backbar];
     
-    UILabel *myNavigationTitle = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, 480, 44)];
+    _myNavigationTitle = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, 480, 44)];
     if (IS_IPHONE_5) {
-        [myNavigationTitle setFrame:CGRectMake(0, 0, 568, 44)];
+        [_myNavigationTitle setFrame:CGRectMake(0, 0, 568, 44)];
     }
-    [myNavigationTitle setTextAlignment:NSTextAlignmentCenter];
-    myNavigationTitle.backgroundColor=[UIColor clearColor];
-    [myNavigationTitle setFont:[UIFont fontWithName:@"Heiti SC" size:19.0]];
-    [myNavigationTitle setTextColor:[UIColor whiteColor]];
-    [self.view addSubview:myNavigationTitle];
+    [_myNavigationTitle setTextAlignment:NSTextAlignmentCenter];
+    _myNavigationTitle.backgroundColor=[UIColor clearColor];
+    [_myNavigationTitle setFont:[UIFont fontWithName:@"Heiti SC" size:19.0]];
+    [_myNavigationTitle setTextColor:[UIColor whiteColor]];
+    [self.view addSubview:_myNavigationTitle];
     
     UIButton *backButton = [[UIButton alloc]initWithFrame:CGRectMake(0, 0, 44, 44)];
     [backButton setBackgroundColor:[UIColor redColor]];

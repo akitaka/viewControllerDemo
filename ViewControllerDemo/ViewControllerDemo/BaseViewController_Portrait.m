@@ -34,12 +34,12 @@
     [backbar setBackgroundColor:[UIColor blueColor]];
     [self.view addSubview:backbar];
     
-    UILabel *myNavigationTitle = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, 320, 44)];
-    [myNavigationTitle setTextAlignment:NSTextAlignmentCenter];
-    myNavigationTitle.backgroundColor=[UIColor clearColor];
-    [myNavigationTitle setFont:[UIFont fontWithName:@"Heiti SC" size:19.0]];
-    [myNavigationTitle setTextColor:[UIColor whiteColor]];
-    [self.view addSubview:myNavigationTitle];
+    _myNavigationTitle = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, 320, 44)];
+    [_myNavigationTitle setTextAlignment:NSTextAlignmentCenter];
+    _myNavigationTitle.backgroundColor=[UIColor clearColor];
+    [_myNavigationTitle setFont:[UIFont fontWithName:@"Heiti SC" size:19.0]];
+    [_myNavigationTitle setTextColor:[UIColor whiteColor]];
+    [self.view addSubview:_myNavigationTitle];
     
     UIButton *backButton = [[UIButton alloc]initWithFrame:CGRectMake(0, 0, 44, 44)];
     [backButton setBackgroundColor:[UIColor redColor]];

@@ -37,6 +37,7 @@
     [anotherButton2Landscape setBackgroundColor:[UIColor lightGrayColor]];
     [self.view addSubview:anotherButton2Landscape];
     [anotherButton2Landscape addTarget:self action:@selector(go:) forControlEvents:UIControlEventTouchUpInside];
+    [self.myNavigationTitle setText:@"Hello Portrait"];
 }
 
 -(IBAction)go:(id)sender
