@@ -6,7 +6,7 @@
 //  Copyright (c) 2013年 Tom HU. All rights reserved.
 //
 
-#import "BaseViewController+Portrait.h"
+#import "BaseViewController_Portrait.h"
 
 @interface BaseViewController_Portrait ()
 

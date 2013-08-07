@@ -6,13 +6,13 @@
 //  Copyright (c) 2013年 Tom HU. All rights reserved.
 //
 
-#import "testViewController+Landscape.h"
+#import "testViewControllerLandscape.h"
 
-@interface testViewController_Landscape ()
+@interface testViewControllerLandscape ()
 
 @end
 
-@implementation testViewController_Landscape
+@implementation testViewControllerLandscape
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

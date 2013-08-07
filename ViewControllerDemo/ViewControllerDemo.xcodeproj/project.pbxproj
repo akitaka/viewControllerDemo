@@ -18,10 +18,10 @@
 		E279BDB017B1D60800B2D012 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E279BDAF17B1D60800B2D012 /* Default-568h@2x.png */; };
 		E279BDB317B1D60800B2D012 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E279BDB117B1D60800B2D012 /* MainStoryboard.storyboard */; };
 		E279BDB617B1D60800B2D012 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E279BDB517B1D60800B2D012 /* ViewController.m */; };
-		E279BDBE17B1D92800B2D012 /* BaseViewController+Portrait.m in Sources */ = {isa = PBXBuildFile; fileRef = E279BDBD17B1D92800B2D012 /* BaseViewController+Portrait.m */; };
-		E279BDC417B1D9C000B2D012 /* BaseViewController+Landscape.m in Sources */ = {isa = PBXBuildFile; fileRef = E279BDC317B1D9C000B2D012 /* BaseViewController+Landscape.m */; };
-		E279BDC717B1DA7D00B2D012 /* testViewController+Landscape.m in Sources */ = {isa = PBXBuildFile; fileRef = E279BDC617B1DA7C00B2D012 /* testViewController+Landscape.m */; };
-		E279BDCA17B1DABA00B2D012 /* testViewController+PortraitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E279BDC917B1DAB900B2D012 /* testViewController+PortraitViewController.m */; };
+		E279BDBE17B1D92800B2D012 /* BaseViewController_Portrait.m in Sources */ = {isa = PBXBuildFile; fileRef = E279BDBD17B1D92800B2D012 /* BaseViewController_Portrait.m */; };
+		E279BDC417B1D9C000B2D012 /* BaseViewController_Landscape.m in Sources */ = {isa = PBXBuildFile; fileRef = E279BDC317B1D9C000B2D012 /* BaseViewController_Landscape.m */; };
+		E279BDC717B1DA7D00B2D012 /* testViewControllerLandscape.m in Sources */ = {isa = PBXBuildFile; fileRef = E279BDC617B1DA7C00B2D012 /* testViewControllerLandscape.m */; };
+		E279BDCA17B1DABA00B2D012 /* testViewControllerPortraitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E279BDC917B1DAB900B2D012 /* testViewControllerPortraitViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,14 +41,14 @@
 		E279BDB217B1D60800B2D012 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		E279BDB417B1D60800B2D012 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E279BDB517B1D60800B2D012 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E279BDBC17B1D92800B2D012 /* BaseViewController+Portrait.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BaseViewController+Portrait.h"; sourceTree = "<group>"; };
-		E279BDBD17B1D92800B2D012 /* BaseViewController+Portrait.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BaseViewController+Portrait.m"; sourceTree = "<group>"; };
-		E279BDC217B1D9C000B2D012 /* BaseViewController+Landscape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BaseViewController+Landscape.h"; sourceTree = "<group>"; };
-		E279BDC317B1D9C000B2D012 /* BaseViewController+Landscape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BaseViewController+Landscape.m"; sourceTree = "<group>"; };
-		E279BDC517B1DA7C00B2D012 /* testViewController+Landscape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "testViewController+Landscape.h"; sourceTree = "<group>"; };
-		E279BDC617B1DA7C00B2D012 /* testViewController+Landscape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "testViewController+Landscape.m"; sourceTree = "<group>"; };
-		E279BDC817B1DAB900B2D012 /* testViewController+PortraitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "testViewController+PortraitViewController.h"; sourceTree = "<group>"; };
-		E279BDC917B1DAB900B2D012 /* testViewController+PortraitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "testViewController+PortraitViewController.m"; sourceTree = "<group>"; };
+		E279BDBC17B1D92800B2D012 /* BaseViewController_Portrait.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController_Portrait.h; sourceTree = "<group>"; };
+		E279BDBD17B1D92800B2D012 /* BaseViewController_Portrait.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController_Portrait.m; sourceTree = "<group>"; };
+		E279BDC217B1D9C000B2D012 /* BaseViewController_Landscape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController_Landscape.h; sourceTree = "<group>"; };
+		E279BDC317B1D9C000B2D012 /* BaseViewController_Landscape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController_Landscape.m; sourceTree = "<group>"; };
+		E279BDC517B1DA7C00B2D012 /* testViewControllerLandscape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testViewControllerLandscape.h; sourceTree = "<group>"; };
+		E279BDC617B1DA7C00B2D012 /* testViewControllerLandscape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testViewControllerLandscape.m; sourceTree = "<group>"; };
+		E279BDC817B1DAB900B2D012 /* testViewControllerPortraitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testViewControllerPortraitViewController.h; sourceTree = "<group>"; };
+		E279BDC917B1DAB900B2D012 /* testViewControllerPortraitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testViewControllerPortraitViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,14 +100,14 @@
 				E279BDB117B1D60800B2D012 /* MainStoryboard.storyboard */,
 				E279BDB417B1D60800B2D012 /* ViewController.h */,
 				E279BDB517B1D60800B2D012 /* ViewController.m */,
-				E279BDC517B1DA7C00B2D012 /* testViewController+Landscape.h */,
-				E279BDC617B1DA7C00B2D012 /* testViewController+Landscape.m */,
-				E279BDC817B1DAB900B2D012 /* testViewController+PortraitViewController.h */,
-				E279BDC917B1DAB900B2D012 /* testViewController+PortraitViewController.m */,
-				E279BDBC17B1D92800B2D012 /* BaseViewController+Portrait.h */,
-				E279BDBD17B1D92800B2D012 /* BaseViewController+Portrait.m */,
-				E279BDC217B1D9C000B2D012 /* BaseViewController+Landscape.h */,
-				E279BDC317B1D9C000B2D012 /* BaseViewController+Landscape.m */,
+				E279BDC517B1DA7C00B2D012 /* testViewControllerLandscape.h */,
+				E279BDC617B1DA7C00B2D012 /* testViewControllerLandscape.m */,
+				E279BDC817B1DAB900B2D012 /* testViewControllerPortraitViewController.h */,
+				E279BDC917B1DAB900B2D012 /* testViewControllerPortraitViewController.m */,
+				E279BDBC17B1D92800B2D012 /* BaseViewController_Portrait.h */,
+				E279BDBD17B1D92800B2D012 /* BaseViewController_Portrait.m */,
+				E279BDC217B1D9C000B2D012 /* BaseViewController_Landscape.h */,
+				E279BDC317B1D9C000B2D012 /* BaseViewController_Landscape.m */,
 				E279BDA017B1D60800B2D012 /* Supporting Files */,
 			);
 			path = ViewControllerDemo;
@@ -196,10 +196,10 @@
 				E279BDA617B1D60800B2D012 /* main.m in Sources */,
 				E279BDAA17B1D60800B2D012 /* AppDelegate.m in Sources */,
 				E279BDB617B1D60800B2D012 /* ViewController.m in Sources */,
-				E279BDBE17B1D92800B2D012 /* BaseViewController+Portrait.m in Sources */,
-				E279BDC417B1D9C000B2D012 /* BaseViewController+Landscape.m in Sources */,
-				E279BDC717B1DA7D00B2D012 /* testViewController+Landscape.m in Sources */,
-				E279BDCA17B1DABA00B2D012 /* testViewController+PortraitViewController.m in Sources */,
+				E279BDBE17B1D92800B2D012 /* BaseViewController_Portrait.m in Sources */,
+				E279BDC417B1D9C000B2D012 /* BaseViewController_Landscape.m in Sources */,
+				E279BDC717B1DA7D00B2D012 /* testViewControllerLandscape.m in Sources */,
+				E279BDCA17B1DABA00B2D012 /* testViewControllerPortraitViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,6 +324,7 @@
 				E279BDBB17B1D60800B2D012 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

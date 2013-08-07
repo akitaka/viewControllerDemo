@@ -6,7 +6,7 @@
 //  Copyright (c) 2013年 Tom HU. All rights reserved.
 //
 
-#import "BaseViewController+Landscape.h"
+#import "BaseViewController_Landscape.h"
 
 @interface BaseViewController_Landscape ()
 

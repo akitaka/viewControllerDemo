@@ -6,14 +6,14 @@
 //  Copyright (c) 2013年 Tom HU. All rights reserved.
 //
 
-#import "testViewController+PortraitViewController.h"
-#import "testViewController+Landscape.h"
+#import "testViewControllerPortraitViewController.h"
+#import "testViewControllerLandscape.h"
 
-@interface testViewController_PortraitViewController ()
+@interface testViewControllerPortraitViewController ()
 
 @end
 
-@implementation testViewController_PortraitViewController
+@implementation testViewControllerPortraitViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -41,7 +41,7 @@
 
 -(IBAction)go:(id)sender
 {
-    testViewController_Landscape *land = [[testViewController_Landscape alloc]init];
+    testViewControllerLandscape *land = [[testViewControllerLandscape alloc]init];
     [self presentViewController:land animated:YES completion:nil];
 }
 

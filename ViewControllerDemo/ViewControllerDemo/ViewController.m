@@ -7,8 +7,8 @@
 //
 
 #import "ViewController.h"
-#import "testViewController+Landscape.h"
-#import "testViewController+PortraitViewController.h"
+#import "testViewControllerLandscape.h"
+#import "testViewControllerPortraitViewController.h"
 
 @interface ViewController ()
 
@@ -29,12 +29,12 @@
 }
 
 - (IBAction)go2PortraitViewController:(id)sender {
-    testViewController_PortraitViewController *port = [[testViewController_PortraitViewController alloc]init];
+    testViewControllerPortraitViewController *port = [[testViewControllerPortraitViewController alloc]init];
     [self presentViewController:port animated:YES completion:nil];
 }
 
 - (IBAction)go2LandscapeViewController:(id)sender {
-    testViewController_Landscape *land =[[testViewController_Landscape alloc]init];
+    testViewControllerLandscape *land =[[testViewControllerLandscape alloc]init];
     [self presentViewController:land animated:YES completion:nil];
 }
 @end

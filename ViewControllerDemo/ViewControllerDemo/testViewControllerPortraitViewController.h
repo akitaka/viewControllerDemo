@@ -6,8 +6,8 @@
 //  Copyright (c) 2013年 Tom HU. All rights reserved.
 //
 
-#import "BaseViewController+Portrait.h"
+#import "BaseViewController_Portrait.h"
 
-@interface testViewController_PortraitViewController : BaseViewController_Portrait
+@interface testViewControllerPortraitViewController : BaseViewController_Portrait
 
 @end
